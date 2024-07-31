@@ -1,1 +1,1 @@
-# Ecommerce
+"Excited to unveil my latest project—a dynamic Ecommerce website crafted with HTML, CSS, and JavaScript! Users can effortlessly browse, select products, add them to cart, and complete purchases seamlessly.
