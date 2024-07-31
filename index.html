@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mmart - Your favourite place for shopping</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="Icons/mobile-development.png" class="App" alt="">
+        <a href="#Get App">Get App   |</a>
+        <img src="Icons/shop.png" class="Store" alt="">
+        <a href="#Store & Events">Store & Events   |</a>
+        <img src="Icons/gift-card.png" class="Gift" alt="">
+        <a href="#Gift Card">Gift Card   |</a>
+        <img src="Icons/question.png" class="Help" alt="">
+        <a href="#Help">Help</a>
+       
+    </header>
+
+    <nav class="navbar">
+     <img src="Icons/user.png" id="user" alt=""  onmouseover="show()"  onmouseout="end()">
+        <div class="navlist">
+            <a href="#Categories">Categories</a>
+            <a href="#Brands">Brands</a>
+            <a href="#Luxce">Luxce</a>
+            <a href="#Fashion">Fashion</a>
+            <a href="#Beauty Advice">Beauty Advice</a>
+        </div>
+
+        <div class="rightnav">
+            <img src="Icons/search-interface-symbol.png" id="search"> <span><input type="search" placeholder="Search on Mmart" id="Search" onclick="focus()"></span>
+            <button id="btn" onclick="info()">Sign in</button>
+        </div>
+        <img src="Icons/shopping-cart.png" id="shopping" alt="">
+    </nav>
+
+
+
+
+    <div class="navbar2">
+        <div id="navlist2">
+            <a href="" id="lists1">Makeup</a>
+            <a href="" id="lists2">Skin</a>
+            <a href="" id="lists3">Hair</a>
+            <a href="" id="lists4">Appliances</a>
+            <a href="" id="lists5">Bath & Body</a>
+            <a href="" id="lists6">Natural</a>
+            <a href="" id="lists7">MoM & Baby</a>
+            <a href="" id="lists8">Health & Wellness</a>
+            <a href="" id="lists9">Men</a>
+            <a href="" id="lists10">Fregnance</a>
+            <a href="" id="lists11">Pop UPS</a>
+        </div>
+    </div>
+
+
+
+
+    <h1 id="head">Top Collection</h1>
+
+  <div class="clothescollection">
+    
+    <div id="Collection1">
+        <img src="images/hangers-1850082_1920.jpg" id="product" alt="">
+        <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, facere?</p>
+        <button id="cart" onclick="openWindow()" ondblclick="closeWindow()">Add to Cart</button>
+    </div>
+
+    <div id="collection2">
+        <img src="images/woman-3040029_1920.jpg" id="women" alt="">
+        <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sequi.</p>
+        <button id="cart2">Add to cart</button>
+    </div>
+
+    <div id="collection3">
+        <img src="images/fashion-2309519_1920.jpg" id="fashion" alt="">
+        <p id="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, blanditiis!</p>
+        <button id="cart3">Add to Cart</button>
+    </div>
+  </div>
+
+  <h1 id="head2">Move with the Trend</h1>
+  <div class="beautycollections">
+    <div id="apperal1">
+        <img src="images/set-different-cosmetics-with-copy-space-white-background.jpg" id="set1" alt="">
+        <p id="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eaque?</p>
+        
+    </div>
+
+    <div id="apperal3">
+        <img src="images/still-life-care-products.jpg" id="set3" alt="">
+        <p id="para6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, doloribus.</p>
+        
+    </div>
+     </div>
+
+
+
+
+     <h1 id="feedback">Your Precious Feedback</h1>
+     <div class="form  background">
+        
+        <form action="">
+             <div id="username">
+              Name:- <input type="text" name="name" id="name" placeholder="Enter your full Name" onkeyup="validateUsername()">
+             <span id="name-error"></span>
+            </div>
+            <div id="userphone">
+                Phone:-<input type="number" name="Phone" id="phone" placeholder="Enter your phone"  onkeyup="validateUserphone()">
+                <span id="phone-error"></span>
+                </div>
+                <div id="usermail">
+                    Email:-<input type="text" name="Email" id="Email" placeholder="Enter your Email" onkeyup="validateMail()">
+                    <span id="mail-error"></span>
+                    </div>
+                    <div id="usermsg">
+                        Message:-<textarea rows="10" id="msg"  placeholder="write your feedback"  onkeyup="validatemsg()"></textarea>
+                        <span id="msg-error"></span>
+                        </div>
+
+                        <button id="btm" onclick="validateAll()">Submit</button>
+        </form>
+     </div>
+
+
+
+
+     <div class="bottomsection">
+        <div id="section1">
+            <ul>
+                <li id="listing">Who are we?</li>
+                <li id="listing">Careers</li>
+                <li id="listing">Authenticity</li>
+                <li id="listing">Press</li>
+                <li id="listing">Testimonials</li>
+                <li id="listing">Nykaa CSR</li>
+                <li id="listing">Resposibile Disclosure</li>
+                <li id="listing">Investor Relations</li>
+            </ul>
+        </div>
+
+        <div id="section2">
+            <ul>
+                <li id="Help">Help</li>
+                <li id="list">Frequently asked question</li>
+                <li id="list">Contact us</li>
+                <li id="list">Store Locator</li>
+                <li id="list">Cancellation & Return</li>
+                <li id="list">Shipping & Delivery</li>
+                <li id="list">Sell on Nykaa</li>
+            </ul>
+        </div>
+
+        <div id="section3">
+            <ul>
+                <li id="Inspire">Inspire Me</li>
+                <li id="list1">Beauty Book</li>
+                <li id="list1">Nykaa TV</li>
+                <li id="list1">Nykaa Network</li>
+                <li id="list1">Buying Guides</li>
+            </ul>
+        </div>
+
+        <div id="section4">
+            <ul>
+                <li id="Quick">Quick Links</li>
+                <li id="list2">Offer Zone</li>
+                <li id="list2">New Launches</li>
+                <li id="list2">Nykaa Man</li>
+                <li id="list2">Nykaa Fashion</li>
+                <li id="list2">Nykaa Pro</li>
+            </ul>
+        </div>
+
+        <div id="section5">
+            <ul>
+                <li id="Top">Top Categories</li>
+                <li id="list3">Makeup</li>
+                <li id="list3">Skin</li>
+                <li id="list3">Hair</li>
+                <li id="list3">Bath & Body</li>
+                <li id="list3">Appliances</li>
+                <li id="list3">Mom and Baby</li>
+                <li id="list3">Wellness</li>
+                <li id="list3">Fregrance</li>
+                <li id="list3">Natural</li>
+                <li id="list3">Luxe</li>
+            </ul>
+        </div>
+     </div>
+
+
+
+
+     <footer>
+        <div id="information">
+          <div id="info">
+            <img src="Icons/shipped.png" id="Shipping" alt="">
+            <h1 id="smallhead">Free Shipping</h3>
+            <p id="infopara">On orders above Rs 499</p>
+          </div>
+
+          <div id="info2">
+            <img src="Icons/return.png" id="return" alt="">
+            <h1 id="smallhead2">Easy Return</h1>
+            <p id="infopara2">15 Days return Policy</p>
+          </div>
+
+          <div id="info3">
+            <img src="Icons/insurance.png" id="authentic" alt="">
+            <h1 id="smallhead3">100% Authentic</h1>
+            <p id="infopara3">Products Sourced Directly</p>
+          </div>
+
+          <div id="info4">
+            <img src="Icons/brand.png"  id="brand" alt="">
+            <h1 id="smallhead4">1900+ Brands</h1>
+            <p id="infopara4">1.2 Lakhs + Products</p>
+          </div>
+
+          <div id="promote">
+          <p id="infopara5">Show us some love & support on Social Media</p>
+          <div id="info5">
+            <img src="Icons/instagram.png" id="pics" alt="">
+            <img src="Icons/facebook.png" id="pics" alt="">
+            <img src="Icons/youtube.png" id="pics" alt="">
+            <img src="Icons/twitter.png" id="pics" alt="">
+            <img src="Icons/pinterest.png" id="pics" alt="">
+          </div>
+          </div>
+        </div>
+
+        <div class="policy">
+            <div id="terms">
+                <h3>Terms & Conditions</h3>
+                <h3>Shipping Policy</h3>
+                <h3>Cancellation Policy</h3>
+                <h3>Privacy Policy</h3>
+            </div>
+            <p id="copyright">@ 2023 Mmart E-Retail Pvt. Ltd All Rights Reserved</p>
+        </div>
+     </footer>
+
+  <script src="src.js"></script>
+</body>
+</html>

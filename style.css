@@ -1,0 +1,841 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-font-family: 'Poppins', sans-serif;
+    --secondary-font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: pink;
+    margin: 0px 2px;
+    position: sticky;
+    top: 0%;
+}
+
+.header img{
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--primary-font-family);
+    padding-top: 1.5%;
+    padding-right: 2.5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: .5%;
+    position: sticky;
+    top: 9%;
+    background-color: white;
+    box-shadow: 0px 0px 3px grey;
+}
+
+
+
+ #user{
+    height: 45px;
+    padding-top: .5%;
+    padding-right: 1%;
+ }
+
+.navlist{
+   padding-top: 1.5%;
+}
+
+
+
+
+.navlist a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    font-family: var(--primary-font-family);
+    transition: all .5s ease-in-out;
+}
+
+.navlist a:hover{
+   background-color: coral;
+   color: white;
+   border-radius: 3px;
+   box-shadow: 0px 0px 3px grey;
+}
+
+.rightnav{
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+
+.rightnav #search{
+    height: 15px;
+}
+
+.rightnav input{
+    padding: 7px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.rightnav #btn{
+    padding: 8px 12px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    font-family: var(--primary-font-family);
+    cursor: pointer;
+
+}
+
+ 
+
+
+
+ #shopping{
+    height: 40px;
+    padding-top: 1.5%;
+    padding-left: 2%;
+}
+
+.navbar2 {
+    box-shadow: 0px 0px 5px darkgrey;
+    padding-bottom: 1%;
+}
+
+#navlist2 {
+    display: flex;
+    justify-content: center;
+}
+
+#navlist2 a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--secondary-font-family);
+    padding: 0px 15px;
+    padding-top: 1%;
+    transition: all .5s ease-in-out;
+}
+
+#navlist2 a:hover{
+   background-color: rgb(243, 38, 38);
+   color: white;
+   border-radius: 4px;
+   box-shadow: 0px 0px 3px grey;
+   margin: 2px 0px;
+   padding: 5px 5px;
+}
+
+
+#head{
+    text-align: center;
+    font-family: var(--primary-font-family);
+    padding-top: 2%;
+}
+
+.clothescollection{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    background-color: beige;
+    padding-bottom: 2%;
+}
+
+
+
+#Collection1 {
+    padding-left: 15%;
+}
+
+#product{
+    width: 50%;
+}
+
+#para{
+    width: 50%;
+    font-family: var(--secondary-font-family);
+    padding-top: 2%;
+    text-align: center;
+}
+
+#cart{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    font-family: var(--primary-font-family);
+    margin-left: 12%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+#Collection2 {
+
+}
+
+#women {
+   
+    width: 50%;
+}
+
+#para2 {
+    width: 50%;
+    font-family: var(--secondary-font-family);
+    padding-top: 2%;
+    text-align: center;
+}
+
+#cart2{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    font-family: var(--primary-font-family);
+    margin-left: 12%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+#Collection3 {
+
+}
+
+#fashion {
+    width: 50%;
+}
+
+#para3{
+    width: 50%;
+    font-family: var(--secondary-font-family);
+    padding-top: 2%;
+    text-align: center;
+}
+
+#cart3{
+    
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    font-family: var(--primary-font-family);
+    margin-left: 12%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+ #head2{
+    text-align: center;
+    font-family: var(--primary-font-family);
+    padding-top: 2%;
+ }
+
+ .beautycollections {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    background-color: beige;
+    padding-bottom: 2%;
+ }
+
+ #apperal1{
+    padding-left: 20%;
+ }
+
+ #set1{
+    width: 50%;
+ }
+
+ #para4{
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+    font-family: var(--secondary-font-family);
+ }
+
+
+ #apperal3{
+
+ }
+
+ #set3{
+    width: 50%;
+ }
+
+ #para6{
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+    font-family: var(--secondary-font-family);
+ }
+
+ #feedback {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    padding-top: 2%;
+ }
+
+ .form{
+    margin-left: 20%;
+    margin-top: 2%;
+ }
+
+ .background {
+    background: url(../ECOMMERCE\ [NYKKA\ FASHION]/images/shopping-cart-1923313_1920.png);
+    background-size: cover;
+    margin-right: 20%;
+ }
+
+ form {
+    padding-bottom: 30%;
+    padding-left: 35%;
+    padding-top: 20%;
+ }
+
+ #username {
+      padding-bottom: 3%;
+      color: white;
+      font-size: larger;
+      font-family: var(--primary-font-family);
+ }
+
+ #username input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: var(--primary-font-family);
+ }
+
+ 
+ #userphone{
+    padding-bottom: 3%;
+      color: white;
+      font-size: larger;
+      font-family: var(--primary-font-family);
+ }
+
+ #userphone input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: var(--primary-font-family);
+ }
+
+ #usermail {
+    padding-bottom: 3%;
+    color: white;
+    font-size: larger;
+    font-family: var(--primary-font-family);
+ }
+
+ #usermail input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: var(--primary-font-family);
+ }
+
+ #usermsg{
+    color: white;
+    font-family: var(--primary-font-family);
+    font-size: larger;
+ }
+
+ #usermsg textarea {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--primary-font-family);
+ }
+
+ #btm{
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: var(--primary-font-family);
+    font-size: large;
+ }
+
+ .bottomsection{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+ }
+
+ #section1{
+    padding-top: 3%;
+    padding-right: 3%;
+ }
+
+ #listing{
+    padding: 2%;
+    font-family: var(--primary-font-family);
+ }
+
+ #section2{
+      padding-top: 3%;
+      padding-right: 3%;
+ }
+
+ #Help{
+    list-style: none;
+    padding-bottom: 7%;
+    font-size: large;
+    font-family: var(--primary-font-family);
+ }
+
+ #list{
+    padding-top: 2%;
+    font-family: var(--primary-font-family);
+    padding: 2%;
+ }
+
+ #section3{
+    padding-top: 3%;
+    padding-right: 3%;
+ }
+
+ #Inspire{
+    list-style: none;
+    padding-bottom: 7%;
+    font-size: large;
+    font-family: var(--primary-font-family);
+ }
+
+ #list1{
+    padding-top: 2%;
+    font-family: var(--primary-font-family);
+    padding: 2%;
+ }
+
+ #section4{
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+ }
+
+ #Quick{
+    list-style: none;
+    padding-bottom: 7%;
+    font-size: large;
+    font-family: var(--primary-font-family);
+ }
+
+ #list2{
+    padding-top: 2%;
+    font-family: var(--primary-font-family);
+    padding: 2%;
+ }
+
+ #section5{
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+ }
+
+ #Top{
+    list-style: none;
+    padding-bottom: 7%;
+    font-size: large;
+    font-family: var(--primary-font-family);
+ }
+
+ #list3{
+    padding-top: 2%;
+    font-family: var(--primary-font-family);
+    padding: 2%;
+ }
+
+ #information{
+   display: flex;
+   margin-top: 2%;
+   justify-content: center;
+ }
+
+ #info{
+   display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+
+ }
+
+ #Shipping{
+   height: 50px;
+   width: 50px;
+   padding: 0px 15px;
+   display: block;
+   margin: auto;
+ }
+
+ #smallhead{
+   padding: 5px 15px;
+   font-family: var(--primary-font-family);
+   font-size: 25px;
+ }
+
+ #infopara{
+   text-align: center;
+   font-family: var(--secondary-font-family);
+ }
+
+
+ #info2{
+   display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+ }
+
+ #return{
+   height: 50px;
+   width: 50px;
+   padding: 0px 15px;
+   display: block;
+   margin: auto;
+ }
+
+ #smallhead2{
+   padding: 5px 15px;
+   font-family: var(--primary-font-family);
+   font-size: 25px;
+ }
+
+ #infopara2{
+   text-align: center;
+   font-family: var(--secondary-font-family);
+ }
+
+ #info3{
+   display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+ }
+
+ #authentic{
+   height: 50px;
+   width: 50px;
+   padding: 0px 15px;
+   display: block;
+   margin: auto;
+ }
+
+ #smallhead3{
+   padding: 5px 15px;
+   font-family: var(--primary-font-family);
+   font-size: 25px;
+ }
+
+ #infopara3{
+   text-align: center;
+   font-family: var(--secondary-font-family);
+ }
+
+ #info4{
+   display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+ }
+
+ #brand{
+   height: 50px;
+   width: 50px;
+   padding: 0px 15px;
+   display: block;
+   margin: auto;
+ }
+
+ #smallhead4{
+   padding: 5px 15px;
+   font-family: var(--primary-font-family);
+   font-size: 25px;
+ }
+
+ #infopara4{
+   text-align: center;
+   font-family: var(--secondary-font-family);
+ }
+
+ #promote{
+   display: flex;
+   flex-direction: column;
+   margin-top: 4%;
+    padding-left: 3%;
+ }
+
+ #infopara5{
+   font-family: var(--primary-font-family);
+ }
+
+
+ 
+ #info5{
+   display: flex;
+    padding-left: 12%;
+    padding-top: 4%;
+   
+ }
+
+ #pics{
+   height: 30px;
+   padding: 0px 10px;
+ }
+
+
+ .policy{
+   margin-top: 4%;
+    background-color: deeppink;
+ }
+
+
+ #terms{
+   display: flex;
+   justify-content: center;
+   padding: 1% 3%;
+   color: white;
+ }
+
+   h3{
+      padding: 0px 15px;
+      font-family: var(--secondary-font-family);
+      cursor: pointer;
+   }
+
+ #copyright{
+   text-align: center;
+    font-family: var(--secondary-font-family);
+    color: white;
+    padding-bottom: 1%;
+ }
+
+
+ @media only screen and (min-width: 900px) and (max-width: 1300px) {
+
+   
+.navbar{
+   position: sticky;
+   top: 19%;
+}
+
+   .navbar2{
+
+   }
+
+   #navlist2 a{
+      font-size: 10px;
+   }
+
+   .clothescollection{
+
+   }
+
+   #Collection1{
+      padding-left: 10%;
+   }
+
+   #para{
+      width: 55%;
+      font-size: 11px;
+      text-align: center;
+   }
+
+   #cart{
+      margin-top: 4%;
+      margin-right: 5%;
+   }
+
+   #Collection2{
+      padding-left: 10%;
+   }
+
+   #para2{
+      width: 55%;
+      font-size: 11px;
+      text-align: center;
+   }
+
+   #cart2{
+      margin-top: 4%;
+      margin-right: 5%;
+   }
+
+   #Collection3{
+      padding-left: 10%;
+   }
+
+   #para3{
+      width: 55%;
+      font-size: 11px;
+      text-align: center;
+   }
+
+   #cart3{
+      margin-top: 4%;
+      margin-right: 5%;
+   }
+
+   .beautycollections{
+
+   }
+
+   #para4{
+      font-size: 11px;
+   }
+
+   #para6{
+      font-size: 11px;
+   }
+
+
+ }
+
+
+ @media only screen and (min-width: 900px) and (max-width: 1300px) {
+
+
+   .bottomsection{
+
+   }
+
+   #section1{
+      padding-right: 1%;
+      padding-left: 2%;
+   }
+
+   #listing{
+      list-style: none;
+      font-size: 12px;
+   }
+
+   #section2{
+      padding-right: 1%;
+      padding-left: 2%;
+   }
+
+   #list{
+      list-style: none;
+      font-size: 12px;
+   }
+
+   #section3{
+      padding-right: 1%;
+      padding-left: 2%;
+   }
+
+   #list1{
+      list-style: none;
+      font-size: 12px;
+   }
+
+   #section4{
+      padding-right: 1%;
+      padding-left: 5%;
+   }
+
+   #list2{
+      list-style: none;
+      font-size: 12px;
+   }
+
+   #section5{
+      padding-right: 1%;
+      padding-left: 5%;
+   }
+
+   #list3{
+      list-style: none;
+      font-size: 12px;
+   }
+
+   #info{
+      padding-left: 2%;
+   }
+
+   #shipping{
+      height: 30px;
+      padding-bottom: 1%;
+
+
+   }
+
+   #smallhead{
+      padding-top: 0%;
+      font-size: 15px;
+      text-align: center;
+   }
+
+   #info2{
+      padding-left: 2%;
+   }
+
+   #return{
+      height: 30px;
+      width: 30px;
+      padding-bottom: 1%;
+   }
+
+   #smallhead2{
+      padding-top: 0%;
+      font-size: 15px;
+      text-align: center;
+   }
+
+   #info3{
+      padding-left: 2%;
+   }
+
+   #authentic{
+      height: 30px;
+      width: 30px;
+      padding-bottom: 1%;
+   }
+
+   #smallhead3{
+      padding-top: 0%;
+      font-size: 15px;
+      text-align: center;
+   }
+
+   #info4{
+      padding-left: 2%;
+   }
+
+   #brand{
+      height: 30px;
+      width: 30px;
+      padding-bottom: 1%;
+   }
+
+   #smallhead4{
+      padding-top: 0%;
+      font-size: 15px;
+      text-align: center;
+   }
+
+   #promote{
+      padding-left: 1%;
+      padding-right: 3%;
+   }
+
+
+   #pics{
+        height: 20px;
+   }
+ }
+
+
+ 
